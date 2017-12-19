@@ -7,7 +7,7 @@
   * [Create Topic with two replicas and three partitions](#create-topic-with-three-partitions-and-two-replicas)
   * [Run Consumers](#run-consumers)
   * [Run Producer](#run-producer)
-  * [Run four Consumers](#run-four-consumers]
+  * [Run four Consumers](#run-four-consumers)
   * [Add one more partition to topic](#add-one-more-partition-to-topic)
   * [Run four Consumers again](#run-four-consumers-again)
   
@@ -53,7 +53,7 @@ $ Run KafkaConsumerGroupApp03
 $ Run KafkaProducerApp
 ```  
 
-### Run four Consumers
+### Run four `Consumers`
 ```sh
 Run KafkaConsumerGroupApp01, KafkaConsumerGroupApp02, KafkaConsumerGroupApp03 and one more consumer KafkaConsumerGroupApp04 
 ```
