@@ -10,6 +10,7 @@
   * [Run four Consumers](#run-four-consumers)
   * [Add one more partition to topic](#add-one-more-partition-to-topic)
   * [Run four Consumers again](#run-four-consumers-again)
+  * [Prequisites](#prequisites)
   
 ### Run `Zookeeper`
 ```sh
@@ -71,4 +72,8 @@ Run KafkaConsumerGroupApp01, KafkaConsumerGroupApp02, KafkaConsumerGroupApp03 an
 ```
 You will notice that all of the consumer will get messages now.
 
-  
+### Prequisites
+- Kafka 2.12-1.0.0
+- Scala 2.12.4
+- Jdk 1.8
+- Maven 3.x
