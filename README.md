@@ -59,13 +59,13 @@ Run KafkaConsumerGroupApp01, KafkaConsumerGroupApp02, KafkaConsumerGroupApp03 an
 ```
 You will notice that one of the consumer will not get any message due to rebalancing of consumers.
 
-### Add one more Partition to Topic 
+### Add one more `Partition` to `Topic` 
 ```sh
 $ cd kafka_2.12-1.0.0
 
 $ .\bin\windows\kafka-topics.bat --alter --topic my-big-topic --zookeeper localhost:2181 --partitions 4
 ```
-### Run four Consumers again
+### Run four `Consumers` again
 ```sh
 Run KafkaConsumerGroupApp01, KafkaConsumerGroupApp02, KafkaConsumerGroupApp03 and one more consumer KafkaConsumerGroupApp04 
 ```
